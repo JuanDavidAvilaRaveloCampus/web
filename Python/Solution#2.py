@@ -1,0 +1,4 @@
+# 2. En la jerarquía de operadores, cuáles son los que más
+# prioridad tienen cuando el intérprete de Python los evalúa?
+
+print(f"\n Los que más prioridad tienen son los paréntesis, dado que ellos indican el orden de indican el orden de evaluación de expresiónes\n\n la jerarquía de prioridad se ve de la siguiente forma: \n\n                OPERADOR                       REPRESENTACIÓN                 PRIORIDAD\n\n Operaciones entre paréntesis                       ()                          MAYOR\n Potencia                                           **\n Multiplicación y División, módulo              *, /, %, //\n o residuo,División entera\n Suma y resta                                      +, -\n Operadores relacionales                   <, <=, >, >=, !=, ==\n Operador lógico                                  AND And\n Operador lógico                                   OR Or                        Menor\n")
