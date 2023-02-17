@@ -1,0 +1,4 @@
+# 7. Cuál es la diferencia entre un condicional simple y un
+# condicional compuesto?
+
+print(f"\n El condicional simple, es (valga la redundancia) simple, ya que no está compuesto de muchas condiciones. \n Mientras que las compuestas, están formadas por más condicionales, ya que se tienen en cuenta varias caminos que va a tomar la variable en medio del proceso.\n\n Ejemplo: \n numero == 9)\n if numeri%2===0:\n    print('el numero es par')\n\n Mientras que las compuestas se verían de la siguiente forma\n numero = 10\n if numero%2==0:\n    print('El numero es par')\n else:\n    print('El numero es impar')")
