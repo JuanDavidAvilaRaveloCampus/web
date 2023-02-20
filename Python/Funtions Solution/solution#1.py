@@ -20,20 +20,18 @@ grupo_artemis = []
 grupo_sputnik = []
 
 
-
-
-
-if crear_grupo == 1:
+while crear_grupo == 1:
     print(f'\nSe ha creado el grupo Artemis..')
     print(f'Si deasea listar el grupo Artemis, presione 1.\nSi desea agregar campers, presione 2.\nSi desea eliminar un camper, presione 3.\nSi desea ordenarlos presione 4 y si desea buscar un camper presione 5')
     proseguir = int(input('Dijite su respuesta: '))
 
     #LISTAR
+    if proseguir == 1:
+        print('Listado Campers del grupo Artemis')
+        
 
-
-    #if proseguir == 1:
     #AGREGAR
-    while proseguir == 2:
+    elif proseguir == 2:
 
         nombreUsuario = input('\nAgregue el nombre del camper: ')
         grupo_artemis.append(nombreUsuario)
@@ -41,12 +39,22 @@ if crear_grupo == 1:
         print('\nSi desea agregar otro camper a la lista dijite 2.\nSi desea salir, dijite 0')
         proseguir = int(input(f'Dijite la opción: '))
 
+    elif proseguir == 3:
+        a = input('Ingrese el nombre del camper que desea eliminar: ')
+        b = grupo_artemis.pop(a) 
+        print(b)
+        #grupo_artemis.remove(b)
     #ELIMINAR
+
+    crear_grupo = int(input('\nPara finalizar el procero dijite 0.\nPara volver a iniciar el proceso dijite 1: '))
+
     #ORDENAR
+
     #BUSCAR
 
     #ToDO DEBE ESTAR DENTRO DE UN WHILE,
     #PARA CUANDO QUERRAMOS PREGUNTAR SI QUIERE SALIR, 
     #QUE PRESIONE 0 Y SI QUIERE ELEJIR OTRA OPCIÓN,
     #QUE PRESIONE 1 Y SE REINICIE EL BUCLE
+    #SALIR
 
