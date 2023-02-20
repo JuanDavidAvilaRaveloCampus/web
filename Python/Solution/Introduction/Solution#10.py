@@ -2,7 +2,7 @@
 # que permita calcular el valor a pagar por concepto de
 # energía eléctrica. Los datos que se conocen son los
 # siguientes:
-# - Mes de consumo - Valor kw
+# - Mes de consumo - Valor kw 
 # -Total kw consumido en el mes - estrato
 
 estrato = int(input('\ningrese su estrato: '))
